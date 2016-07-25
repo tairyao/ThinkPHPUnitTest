@@ -17,7 +17,7 @@ ThinkPHP的单元测试扩展，下载后可直接运行示例。
 	* ApiControllerTest.php：单元测试例子
 
 ## 使用方式
-1. 测试单个文件
+测试单个文件
 ```
 [root@localhost Test]# pwd
 /home/tairyao/ThinkPHPUnitTest/Application/Home/Test
@@ -31,7 +31,7 @@ Time: 381 ms, Memory: 56.25Mb
 OK (1 test, 1 assertion)
 ```
 
-2. 测试整个目录
+测试整个目录
 ```
 [root@localhost Home]# pwd
 /home/tairyao/ThinkPHPUnitTest/Application/Home
