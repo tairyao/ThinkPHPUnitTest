@@ -1,7 +1,7 @@
 # ThinkPHP单元测试扩展
 
 ## 简介
-ThinkPHP的单元测试扩展，下载后可直接运行示例。
+ThinkPHP的单元测试扩展，下载后可直接运行示例。并且在phpunit的基础上，集成了AspectMock。其中AspectMock可以通过AOP的方式，用mock出来的仿类替换掉原本的类，而无需依赖注入。
 
 ## 运行环境
 * PHP：仅支持5.4，5.5
