@@ -24,7 +24,7 @@ class ApiControllerTest extends PHPUnit_Framework_TestCase {
         //mock一个Model类的替身，设置query方法返回abc
         $model = test::double('\Think\Model', ['query' => 'abc']);
         //无需把替身注入到controller中，AOP机制会在test()方法中自动把Model类替换为替身
-        $data = $this->controller->test();
+        $data = $this->controller->getAll();
         print_r($data);
         //断言结果为abc
         $this->assertEquals('abc', $data);

@@ -60,12 +60,12 @@ foreach ($mode['config'] as $key=>$file){
 }
 
 // 加载配置文件
-C(include THINK_PATH.'Conf/convention.php');
-C(include APP_PATH.'Common/Conf/config.php');
-C(include MODULE_PATH.'Conf/config.php');
+file_exists(THINK_PATH.'Conf/convention.php') && C(include THINK_PATH.'Conf/convention.php');
+file_exists(APP_PATH.'Common/Conf/config.php') && C(include APP_PATH.'Common/Conf/config.php');
+file_exists(MODULE_PATH.'Conf/config.php') && C(include MODULE_PATH.'Conf/config.php');
 
 // 加载模块公共方法
-include_once MODULE_PATH.'Common/function.php';
+file_exists(MODULE_PATH.'Common/function.php') && include_once MODULE_PATH.'Common/function.php';
 
 spl_autoload_register('my_autoload');
 
