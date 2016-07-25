@@ -1,7 +1,7 @@
 # ThinkPHP单元测试扩展
 
 ## 简介
-ThinkPHP的单元测试扩展，下载后可直接运行示例。并且在phpunit的基础上，集成了AspectMock。其中AspectMock可以通过AOP的方式，用mock出来的仿类替换掉原本的类，而无需依赖注入。
+ThinkPHP的单元测试扩展，下载后可直接运行示例。并且在phpunit的基础上，集成了AspectMock。AspectMock可以通过AOP的方式，用mock出来的仿类替换掉原本的类，而无需依赖注入。
 
 ## 运行环境
 * PHP：仅支持5.4，5.5
@@ -14,7 +14,7 @@ ThinkPHP的单元测试扩展，下载后可直接运行示例。并且在phpuni
 	* phpunit.xml：phpunit全局设置
 	* aspectMockAutoload.php：AspectMock的引导程序
 	* bootstrap.php：ThinkPHP框架的引导程序
-	* ApiControllerTest.php：单元测试例子
+	* ApiControllerTest.php：单元测试例子。同一个项目的单元测试文件都放在当前路径下
 
 ## 使用方式
 测试单个文件
