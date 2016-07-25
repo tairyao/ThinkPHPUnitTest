@@ -32,7 +32,7 @@ OK (1 test, 1 assertion)
 ```
 
 2. 测试整个目录
-<pre><code>
+```
 [root@localhost Home]# pwd
 /home/tairyao/ThinkPHPUnitTest/Application/Home
 [root@localhost Home]# phpunit -c Test/phpunit.xml Test/
@@ -43,4 +43,4 @@ PHPUnit 4.8.9 by Sebastian Bergmann and contributors.
 Time: 458 ms, Memory: 56.50Mb
 
 OK (1 test, 1 assertion)
-</code></pre>
+```
