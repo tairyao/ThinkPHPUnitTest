@@ -18,7 +18,7 @@ ThinkPHP的单元测试扩展，下载后可直接运行示例。
 
 ## 使用方式
 1. 测试单个文件
-<pre><code>
+```
 [root@localhost Test]# pwd
 /home/tairyao/ThinkPHPUnitTest/Application/Home/Test
 [root@localhost Test]# phpunit ApiControllerTest.php
@@ -29,7 +29,7 @@ PHPUnit 4.8.9 by Sebastian Bergmann and contributors.
 Time: 381 ms, Memory: 56.25Mb
 
 OK (1 test, 1 assertion)
-</code></pre>
+```
 
 2. 测试整个目录
 <pre><code>
